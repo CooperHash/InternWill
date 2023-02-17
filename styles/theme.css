@@ -1,0 +1,90 @@
+html {
+    background-color: rgb(245, 245, 247);
+}
+
+/*
+ * GitHub theme for highlight.js
+ * Authored by Jeremy Thomas <jeremy@jgthms.com>
+ * Inspired by GitHub's syntax coloring
+ * MIT license
+ */
+
+.hljs {
+    display: block;
+    overflow-x: auto;
+    padding: 0.5em;
+    background: white;
+    color: black;
+}
+
+.hljs-comment,
+.hljs-meta {
+    color: #999988;
+    font-style: italic;
+}
+
+.hljs-variable,
+.hljs-template-variable,
+.hljs-attribute-name {
+    color: #008080;
+}
+
+.hljs-function {
+    color: #f5c64d;
+}
+
+.hljs-tag,
+.hljs-name,
+.hljs-quote,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+    color: #1e90ff;
+}
+
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type  {
+    color: #ff4500;
+}
+
+.hljs-params {
+    color: rgb(113,198,167)
+}
+
+.hljs-string {
+    color: hsl(50deg 100% 50%);
+}
+
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+    color: #22863a;
+}
+
+.hljs-title {
+    color: rgb(111, 191, 249);
+}
+
+.hljs-section {
+    color: #232121;
+}
+
+.hljs-keyword {
+    color: hsl(266deg 80% 75%);
+}
+
+.hljs-selector-tag {
+    color: #007fff;
+}
+
+.hljs {
+    display: block;
+    overflow-x: auto;
+    padding: 0.5em;
+    background: black;
+    color: white;
+}
