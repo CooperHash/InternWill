@@ -12,7 +12,7 @@ import highlight from "./styles/theme.css"
 // import highlight from "highlight.js/styles/atom-one-dark.css";
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
-  title: "New Remix App",
+  title: "InternWill",
   viewport: "width=device-width,initial-scale=1",
 });
 
