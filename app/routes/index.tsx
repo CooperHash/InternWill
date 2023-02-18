@@ -1,8 +1,4 @@
 import { Link } from "@remix-run/react";
-import Highlight from "@/components/Highlight";
-// import CodeBlock from "@/components/Code";
-// import SyntaxHighlighter from 'react-syntax-highlighter'
-// import { tomorrowNightEighties } from 'react-syntax-highlighter/dist/cjs/styles/hljs'
 export default function Index() {
   const code = "const a = 'Hello, world!'\nimport react from 'react';\n<Code/>";
   return (

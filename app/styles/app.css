@@ -590,14 +590,6 @@ video {
   margin-top: 30px;
 }
 
-.mt-\[32px\] {
-  margin-top: 32px;
-}
-
-.mt-\[33px\] {
-  margin-top: 33px;
-}
-
 .mt-\[60px\] {
   margin-top: 60px;
 }
@@ -884,11 +876,11 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.line-clamp-3 {
+.line-clamp-1 {
   overflow: hidden;
   display: -webkit-box;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3;
+  -webkit-line-clamp: 1;
 }
 
 .line-clamp-2 {
@@ -896,13 +888,6 @@ video {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
-}
-
-.line-clamp-1 {
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 1;
 }
 
 .focus\:text-white:focus {

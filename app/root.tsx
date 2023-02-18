@@ -22,6 +22,7 @@ export function links() {
   return [
     { rel: "stylesheet", href: styles },
     { rel: "stylesheet", href: highlight },
+    { rel: "icon", href: "/favicon.jpg" },
   ]
 }
 
