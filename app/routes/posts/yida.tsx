@@ -27,8 +27,8 @@ export default function yida() {
 
 
   return (
-    <div>
-      <div className="relative mt-8 w-4/5 mx-auto mt-[100px]">
+    <div className="mb-[100px]">
+      <div className="relative mt-8 w-full p-4 mx-auto mt-[100px] mb-[50px]">
         <div className="">
           <div className="text-4xl leading-8 font-bold">class component和hooks</div>
           <div className="w-full mt-[60px] flex flex-col">

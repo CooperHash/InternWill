@@ -8,9 +8,11 @@
     "dev:css": "tailwindcss -w ./styles/app.css -o app/styles/app.css"
   },
   "dependencies": {
+    "@prisma/client": "^4.10.1",
     "@remix-run/node": "^1.12.0",
     "@remix-run/react": "^1.12.0",
     "@remix-run/vercel": "^1.12.0",
+    "@supabase/supabase-js": "^2.8.0",
     "@tailwindcss/line-clamp": "^0.4.2",
     "@vercel/node": "^2.6.2",
     "clsx": "^1.2.1",
