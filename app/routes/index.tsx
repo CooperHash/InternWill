@@ -12,17 +12,17 @@ export default function Index() {
         </div>
         <div className="flex flex-row w-4/5 mx-auto mt-[150px] space-x-5 phone:flex-col phone:space-y-4 phone:space-x-0">
           <div className="item flex-1">
-            <h2 className="break-words font-sans text-xl font-medium line-clamp-1">变量提升、v8解析和执行</h2>
+            <h2 className="break-words font-sans text-xl font-medium phone:line-clamp-1">变量提升、v8解析和执行</h2>
             <p className="text-gray-500 mt-4 line-clamp-2">在解析时，变量提升到AST的作用域顶部，v8解析、编译、优化、执行</p>
             <button className="rounded-3xl w-2/3 h-[50px] bg-red-600 text-white mt-[30px]">深度剖析</button>
           </div>
           <div className="item flex-1">
-            <h2 className="break-words font-sans text-xl font-medium">WeakMap的应用场景</h2>
+            <h2 className="break-words font-sans text-xl font-medium phone:line-clamp-1">WeakMap的应用场景</h2>
             <p className="text-gray-500 mt-4 line-clamp-2">1.为对象存储额外的、私有数据 2.创建“记忆”对象 3.存储非公开的、仅用于某个函数或组件内部的数据</p>
             <button className="rounded-3xl w-2/3 h-[50px] bg-red-600 text-white mt-[30px]">具体场景</button>
           </div>
           <div className="item flex-1">
-            <h2 className="break-words font-sans text-xl font-medium">登录的技术实现方案</h2>
+            <h2 className="break-words font-sans text-xl font-medium phone:line-clamp-1">登录的技术实现方案</h2>
             <p className="text-gray-500 mt-4 line-clamp-2">1. cookie不安全 2.OAuth 3.token需要了解access_token和refresh_token的概念
               4.session存储空间太大</p>
             <button className="rounded-3xl w-2/3 h-[50px] bg-red-600 text-white mt-[30px]">技术方案</button>
