@@ -910,6 +910,12 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+@media (min-width: 640px) and (max-width: 1024px) {
+  .ipad\:hidden {
+    display: none;
+  }
+}
+
 @media (max-width: 640px) {
   .phone\:hidden {
     display: none;
@@ -951,5 +957,11 @@ video {
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 1;
+  }
+}
+
+@media (min-width: 1024px) {
+  .pc\:hidden {
+    display: none;
   }
 }

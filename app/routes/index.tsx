@@ -45,7 +45,7 @@ export default function Index() {
                   <div>有没有写过自定义hooks</div>
                   <div>useMemo和useCallback区别</div>
                 </div>
-                <div className="w-full line-clamp-3 break-words">
+                <div className="pc:hidden ipad:hidden w-full line-clamp-3 break-words">
                   <div>hooks和className component区别&nbsp;有没有写过自定义hooks</div>
                 </div>
               </div>
