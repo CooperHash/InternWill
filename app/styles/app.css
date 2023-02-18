@@ -542,6 +542,14 @@ video {
   margin-right: auto;
 }
 
+.mb-\[100px\] {
+  margin-bottom: 100px;
+}
+
+.mb-\[50px\] {
+  margin-bottom: 50px;
+}
+
 .ml-\[160px\] {
   margin-left: 160px;
 }
@@ -596,14 +604,6 @@ video {
 
 .mt-\[88px\] {
   margin-top: 88px;
-}
-
-.mb-\[50px\] {
-  margin-bottom: 50px;
-}
-
-.mb-\[100px\] {
-  margin-bottom: 100px;
 }
 
 .box-border {
@@ -915,10 +915,6 @@ video {
     display: none;
   }
 
-  .phone\:h-\[200px\] {
-    height: 200px;
-  }
-
   .phone\:h-\[300px\] {
     height: 300px;
   }
@@ -931,12 +927,6 @@ video {
     flex-direction: column;
   }
 
-  .phone\:space-y-2 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-y-reverse: 0;
-    margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
-    margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
-  }
-
   .phone\:space-x-0 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0;
     margin-right: calc(0px * var(--tw-space-x-reverse));
@@ -947,13 +937,6 @@ video {
     --tw-space-y-reverse: 0;
     margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(1rem * var(--tw-space-y-reverse));
-  }
-
-  .phone\:line-clamp-3 {
-    overflow: hidden;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 3;
   }
 
   .phone\:line-clamp-4 {
